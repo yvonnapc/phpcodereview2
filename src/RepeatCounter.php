@@ -9,13 +9,14 @@
           $counter = 0;
 
           foreach($phrase_array as $word)
-          {
-              if($word_input == $word)
-              {
-                $counter = $counter + 1;
-              }
-            return $counter;
-          }
+            {
+                if($phrase_input == $word)
+                {
+                  $counter = $counter + 1;
+                }
+
+            }return $counter;
+
         }
     }
  ?>

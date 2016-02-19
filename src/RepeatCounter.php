@@ -1,7 +1,12 @@
 <?php
     class RepeatCounter
     {
-      private $singleWord;
-      private $sentence;
+
+        function countRepeats($word_input, $phrase_input)
+        {
+          $counter = 0;
+
+          $array = explode(" ", $input_phrase);
+        }
     }
  ?>

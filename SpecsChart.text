@@ -1,0 +1,39 @@
+BEHAVIOR:
+    Returns the inputted sentence as an array
+INPUT:
+    Word:'coffee'
+    Sentence:'I love coffee and my dog Henry'
+OUTPUT:
+    '["I", "love", "coffee", "and", "my", "dog", "Henry"]'
+
+BEHAVIOR:
+    Returns 0 if search-for word is not present
+INPUT:
+    Word:'Henry'
+    Sentence: 'I love coffee'
+OUTPUT:
+    '0'
+
+BEHAVIOR:
+    Returns 1 if search-for word is a match
+INPUT:
+    Word:'love'
+    Sentence:'love'
+OUTPUT:
+    '1'
+
+BEHAVIOR:
+    Returns 1 if search-for word appears among other words
+INPUT:
+    Word:'coffee'
+    Sentence:'I love coffee and my dog Henry'
+OUTPUT:
+    '1'
+
+BEHAVIOR:
+    Returns 3 if search-for word appears four times in the sentence
+INPUT:
+    Word:'captain'
+    Sentence:'Oh Captain, my Captain... Where my Captain lies'
+OUTPUT:
+    '3'

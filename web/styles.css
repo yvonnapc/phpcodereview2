@@ -1,0 +1,22 @@
+body {
+  background-color: #B8B8B8;
+}
+
+h1 {
+  font-family: Arial;
+  color: #FFAE7D;
+}
+
+h3 {
+  font-family: Arial;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-family: Arial;
+  color:#A4E086;
+}
+
+.container {
+  text-align: center;
+}

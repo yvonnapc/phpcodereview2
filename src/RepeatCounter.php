@@ -2,7 +2,7 @@
     class RepeatCounter
 
     {
-        function CountRepeats($sentence_input, $word_input)
+        function countRepeats($sentence_input, $word_input)
         {
             $sentence_input = preg_replace('/[^a-z0-9]+/i', ' ', $sentence_input);
             $sentence_input = strtolower($sentence_input);
